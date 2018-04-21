@@ -1,0 +1,6 @@
+name: "Hugo"
+description: "Provides integration to generate a site using Hugo from Drupal content."
+type: module
+core: 8.x
+dependencies:
+  - serialization

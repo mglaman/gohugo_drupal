@@ -1,0 +1,19 @@
+<?php
+
+/**
+ * Defines hooks, things which are not yet dispatched by the event system.
+ */
+
+use Drupal\Core\Entity\EntityInterface;
+
+/**
+ * Implements hook_entity_insert().
+ */
+function gohugo_entity_insert(EntityInterface $entity) {
+}
+
+/**
+ * Implements hook_entity_update().
+ */
+function gohugo_entity_update(EntityInterface $entity) {
+}

@@ -1,0 +1,6 @@
+services:
+  gohugo.config_subscriber:
+    class: Drupal\gohugo\EventSubscriber\ConfigSubscriber
+    arguments: ['@serializer']
+    tags:
+      - { name: event_subscriber }

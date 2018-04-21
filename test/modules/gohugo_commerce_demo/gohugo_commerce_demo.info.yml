@@ -1,0 +1,8 @@
+name: "Hugo: Drupal Commerce example"
+description: "Provides example to generate an eCommerce Hugo site powered by Drupal Commerce"
+type: module
+core: 8.x
+dependencies:
+ - commerce:commerce
+ - commerce:commerce_product
+ - taxonomy
